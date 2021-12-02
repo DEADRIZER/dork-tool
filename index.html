@@ -11,20 +11,18 @@
 <body>
     <div class="parent-request-container">
         <div class="request-container">
-            <input id="research-text" autocomplete="off" class="" type="text">
+            <input style="margin-left: 0;" id="request-text" autocomplete="off" class="" type="text">
+            <input id="request-clear-btn" autocomplete="off" class="btn" type="button"  value="🛇">
             <input id="research-btn" autocomplete="off" class="btn" type="button"  value="Go">
         </div>
 
-        <div class="filter-container">
-            <select name="filter-selector" id="filter-selector">
-                <option value="">choose a filter</option>
+        <div id="filter-container" class="filter-container">
+            <select id="filter-selecto" name="filter-selector" id="filter-selector">
+                <option>choose a filter</option>
             </select>
-            <input id="filter-selecto" autocomplete="off" class="filter-field" type="text">
+            <input id="filter-text" autocomplete="off" class="filter-field" type="text">
+            <input id="filter-clear-btn" autocomplete="off" class="btn" type="button"  value="🛇">
             <input id="filter-btn" autocomplete="off" class="btn" type="button"  value="➜">
-        </div>
-            
-        <div class="add-btn">
-            <input id="add-btn" autocomplete="off" class="btn" type="button"  value="Add">
         </div>
     </div>
     <script type="text/javascript" src="js/main.js"></script>
